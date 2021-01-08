@@ -74,39 +74,18 @@
 
                                     <td><?= $details->foto ?></td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td class="icon"><span class="mdi mdi-globe-alt"></span></td>
                                     <td class="istem">Foto<span class="icon s7-map-marker"></span></td>
 
                                     <td><?= $details->alamat ?></td>
-                                </tr>
+                                </tr> -->
 
                             </tbody>
                         </table>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="panel-heading panel-heading-divider">Kontak Orang Tua</div>
-                    <div class="panel-body">
-                        <table class="no-border no-strip skills">
-                            <tbody class="no-border-x no-border-y">
-                                <tr>
-                                    <td class="icon"><span class="mdi mdi-face"></span></td>
-                                    <td class="item">Nama Orang Tua<span class="icon s7-face"></span></td>
-
-                                    <td class="col-sm-6 col-sm-offset-3"><?= $details->nama_orangtua ?></td>
-                                </tr>
-                                <tr>
-                                    <td class="icon"><span class="mdi mdi-phone"></span></td>
-                                    <td class="item">Nomor Kontak Orang Tua<span class="icon s7-phone"></span></td>
-
-                                    <td><?= $details->no_telp_ortu ?></td>
-                                </tr>
-                            </tbody>
-
-                        </table>
-                    </div>
-                </div>
+              
             </div>
 
         </div>

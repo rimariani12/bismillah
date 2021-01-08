@@ -48,11 +48,11 @@
                                       <td><?= $berita->kategori ?></td>
 
                                       <td class="actions" style="word-spacing: 10px;">
-                                          <a href="<?= base_url('admin/detailberita') ?>" class="icon"><i class="mdi mdi-eye"></i></a>
-
+                                          <a href="<?= base_url('admin/detailberita'); ?>" class="icon"><i class="mdi mdi-eye"></i></a>
+                                          
                                           <a href="<?= base_url('admin/ubahberita'); ?>" class="icon"><i class="mdi mdi-edit"></i></a>
 
-                                          <a href="#" class="icon"> <i class="mdi mdi-delete"></i></a>
+                                          <a href="<?= base_url('admin/hapus/') .  $berita->id  ?>" onclick="return confirm('yakin akan di hapus ?');" class="icon"><i class="mdi mdi-delete"></i></a>
 
                                       </td>
                                       </td>

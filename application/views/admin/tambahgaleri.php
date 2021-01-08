@@ -6,7 +6,7 @@
                  <h4><b>Admin/Tambah Gambar</b></h4>
             </div>
             <div class="panel-body">
-                <form action="<?php echo site_url('admin/tambahgaleri') ?>" method="post" data-parsley-validate="" novalidate="" class="form-horizontal">
+                <form action="<?= base_url('admin/store') ?>" method="post" class="form-horizontal" enctype="multipart/form-data">
                     
                     <div class="form-group">
                         <label class="col-sm-3 control-label" style="text-align: left;">Nama Galeri</label>
